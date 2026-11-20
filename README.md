@@ -26,6 +26,12 @@ Everything is a mock: data is invented, stakes are virtual. This is a design art
 * Human vs agent is encoded by **shape as well as colour** (`●` vs `◆`) for accessibility.
 * Responsive: single column under 1000 px, no horizontal overflow at 390 px width.
 
+## Language
+
+The demo itself is bilingual: a **RU / EN** switch sits in the header, the choice is stored in
+`localStorage`, and every string — UI, claims, profiles, limits — exists in both languages.
+This README is English; the Russian version is `README.ru.md`.
+
 ## Run locally
 
 Open `index.html` in a browser, or:
